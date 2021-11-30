@@ -1,0 +1,236 @@
+@charset "ISO-8859-1";
+
+ /*
+  #FBB92F
+
+
+ */
+
+ body {
+  font-family: Arial;
+  font-size: 14px;
+  color: black;
+}
+
+#map {
+  position: relative;
+  height: 600px;
+  background-color: #FBB92F;
+  z-index: 0;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 1px solid #5e5e5e;
+  outline: none;
+  vertical-align: middle;
+}
+
+#primary_uses_div{
+  position: relative;
+  padding: 20px 5px 20px 20px;
+  background-color: rgba(27,76,140,0.2);
+  z-index: 1;
+  color: #5e5e5e;
+  border-radius: 5px;
+  height: 600px;
+}
+
+#container_primary_use{
+  height: 525px;
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+.primary_use_line_div{
+    padding: 0px;
+}
+
+.primary_use_checkbox_div{
+  display: table-cell;
+  padding-right: 5px;
+}
+
+.primary_use_label_div{
+   width: 220px;
+   display: table-cell;
+   vertical-align: text-top;
+}
+
+.primary_use_div_cnt{
+  padding-left: 5px;
+  padding-right:5px;
+  width: 25px;
+  display: table-cell;
+}
+
+/*
+Energy Star div
+*/
+#energy_star_rating_div{
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 600px;
+  height:53px;
+  top:840px;
+  border: 1px solid rgba(27,76,140,0.5);
+  border-radius: 5px;
+  z-index: 2;
+}
+
+#energy_star_rating_div label{
+    padding-right: 15px;
+}
+
+.inputs {
+   padding-bottom: 0em;
+}
+
+.input_title{
+  font-weight: bold;
+  padding-right: 15px;
+  text-align: right;
+}
+
+/* Tooltip */
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/*Scroll bar specific*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5e5e5e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9c9a9a;
+}
+
+
+/*Legend specific*/
+.legend {
+  padding: 6px 8px;
+  font: 14px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
+  border: 5px solid #404041;
+  border-radius: 16px;
+  line-height: 24px;
+  color: #555;
+}
+
+.legend h4 {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
+
+.legend span {
+  position: relative;
+  bottom: 3px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.7;
+}
+
+.legend i.icon {
+  background-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#navbar{
+    background-color: #1b4c8c;
+    height: 58px;
+    line-height: 58px;
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 11px;
+    transition: background-color 0.05s;
+}
+
+.nav-links a:hover{
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.3);
+}
+
+#social_icons{
+    text-align: right;
+}
+
+#bewes_info_wrapper{
+    overflow: hidden;
+    color: #5e5e5e;
+}
+
+#bewes_info {
+    font: 15px Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    border-right-style: solid;
+    padding: 20px;
+}
+
+#bewes_info_update {
+    display: inline-block;
+    padding: 40px 10px;
+}
+
+#wrapper {
+    height:auto;
+    overflow: hidden;
+    display: none;
+}
+
+#compare_div0 {
+    font-family: Texta, Helvetica, sans-serif;
+    border: 3px solid #404041;
+    border-radius: 16px;
+    color: #555;
+    height: auto;
+    padding: 15px;
+    box-shadow: 0px 10px 6px -6px #6BA8DB;
+    margin:15px
+}
+
+#compare_div1 {
+    font-family: Texta, Helvetica, sans-serif;
+    border: 3px solid #404041;
+    border-radius: 16px;
+    color: #555;
+    height: auto;
+    padding: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 6px -6px #6BA8DB;
+    margin:15px
+}
